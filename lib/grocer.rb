@@ -9,7 +9,6 @@ def find_item_by_name_in_collection(name, collection)
   end
   needed_item
 end
-end
 
 def consolidate_cart(cart)
 new_array = []
