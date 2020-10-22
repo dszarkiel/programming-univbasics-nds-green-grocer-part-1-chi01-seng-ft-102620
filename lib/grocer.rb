@@ -1,11 +1,9 @@
-require 'pry'
 def find_item_by_name_in_collection(name, collection)
   count = 0
   needed_item = {}
   while count < collection.length do
     if collection[count][:item] == name
       needed_item = collection[count]
-      binding.pry
     end
   count =+ 1
   end
