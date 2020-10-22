@@ -12,4 +12,6 @@ end
 
 def consolidate_cart(cart)
 new_array = []
+card.find do |key|
+end
 end
