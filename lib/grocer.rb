@@ -5,6 +5,7 @@ def find_item_by_name_in_collection(name, collection)
     if collection[count][:item] == name
       needed_item = collection[count]
     end
+  end
   count += 1
   end
   needed_item
