@@ -14,8 +14,15 @@ turn = 0
 while turn < cart.length do
   cart[turn][:count] = 1
   new_array << cart[turn]
+end
+
+
+
+
+
   return new_array
 
 
-end
+
+
 end
