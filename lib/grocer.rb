@@ -29,13 +29,3 @@ while i < cart.length do
 end
 new_array
 end
-
-
-
-
-  return new_array
-
-
-
-
-end
